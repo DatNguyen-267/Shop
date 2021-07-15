@@ -1,4 +1,6 @@
 :root {
+    --primary-color:#ee4d2d;
+    --primary-color-rgba:rgba(238, 77, 45,0.5);
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
@@ -29,4 +31,13 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+}
+/* ANIMATION */
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }

@@ -7,6 +7,9 @@
     .hide-on-moblie-tablet {
         display: none;
     }
+    .show-on-moblie-tablet {
+        display: block;
+    }
     .header {
         position: fixed;
         z-index: 10;
@@ -32,6 +35,9 @@
     }
     .app__content {
         padding-top: 8px;
+    }
+    .mobile-category{
+        display: block;
     }
 }
 
@@ -74,6 +80,15 @@
     }
     .app__content {
         margin: 0;
+    }
+    .header__mobile-search{
+        display: block;
+    }
+    .header__logo-img {
+        width: 110px;
+    }
+    .header__search-text{
+        padding: 0 16px 0 4px;
     }
     @keyframes mobileSearchSideIn {
         from {
